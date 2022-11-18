@@ -6,7 +6,9 @@ import AppJumbo from "./components/AppJumbo.vue";
 import AppContactBanner from "./components/AppContactBanner.vue";
 import AppSectionCourses from "./components/AppSectionCourses.vue";
 import AppCentralBanner from './components/AppCentralBanner.vue'
-
+import AppTestimonials from './components/AppTestimonials.vue'
+import AppLatestNews from "./components/AppLatestNews.vue";
+import AppNwesLetter from './components/AppNewsLetter.vue'
 
 export default {
 
@@ -17,6 +19,9 @@ export default {
     AppContactBanner, 
     AppSectionCourses,
     AppCentralBanner, 
+    AppTestimonials, 
+    AppLatestNews, 
+    AppNwesLetter, 
   }, 
 
   data(){
@@ -49,6 +54,9 @@ export default {
 <AppContactBanner />
 <AppSectionCourses />
 <AppCentralBanner />
+<AppTestimonials />
+<AppLatestNews />
+<AppNwesLetter />
 
 </main>
 <!-- End Main  -->
