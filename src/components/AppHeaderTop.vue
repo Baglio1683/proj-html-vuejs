@@ -6,7 +6,6 @@ export default{
 
     data(){
         return{
-         message: "Ciao Nuovo Progetto"
         }
     }
 }
@@ -15,7 +14,6 @@ export default{
 
 
 <template>
-{{message}}
 </template>
 
 <style lang="scss"  scoped>
