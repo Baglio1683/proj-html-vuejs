@@ -1,9 +1,15 @@
 @import '../../node_modules/@fortawesome/fontawesome-free/css/all.css'; 
+@import  '../styles/partials/variables';
+
 
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+}
+
+a{
+  cursor: pointer;
 }
 
 .container{
@@ -24,8 +30,35 @@ img{
     max-width: 100%;
 }
 
+.btn_green{
+    background-color: #7ABC64;
+    display: inline-block;
+    line-height: 30px;
+    height: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 20px;
+    text-align: center;
+
+}
+
+.btn_green_square{
+    background-color: #7ABC64;
+    display: flex; 
+    width: 30px;
+    height: 15px;
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+    font-size: 8px;
+}
+
 .d_flex{
     display: flex;
+}
+
+.alignIt_center{
+    align-items: center;
 }
 
 .justify_space_btw{
@@ -34,6 +67,14 @@ img{
 
 .flex_wrap{
     flex-wrap: wrap;
+}
+
+.f_small{
+    font-size: small;
+}
+
+.gap_2{
+    column-gap: 2px;
 }
 
 

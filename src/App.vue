@@ -1,5 +1,6 @@
 <!-- Start script js  -->
 <script>
+
 import AppHeaderTop from "./components/AppHeaderTop.vue";
 import AppHeaderDown from "./components/AppHeaderDown.vue";
 import AppJumbo from "./components/AppJumbo.vue";
@@ -8,11 +9,14 @@ import AppSectionCourses from "./components/AppSectionCourses.vue";
 import AppCentralBanner from './components/AppCentralBanner.vue'
 import AppTestimonials from './components/AppTestimonials.vue'
 import AppLatestNews from "./components/AppLatestNews.vue";
-import AppNwesLetter from './components/AppNewsLetter.vue'
+import AppNwesLetter from './components/AppNewsLetter.vue'; 
+import AppFooterTop from "./components/AppFooterTop.vue";
+import AppFooterDown from "./components/AppFooterDown.vue";
 
 export default {
 
   components : {
+
     AppHeaderTop, 
     AppHeaderDown,
     AppJumbo,  
@@ -21,7 +25,10 @@ export default {
     AppCentralBanner, 
     AppTestimonials, 
     AppLatestNews, 
-    AppNwesLetter, 
+    AppNwesLetter,
+    AppFooterTop, 
+    AppFooterDown, 
+    
   }, 
 
   data(){
@@ -41,8 +48,8 @@ export default {
 <!-- Start Header -->
 <header>
 
- <AppHeaderTop />
- <AppHeaderDown />
+  <AppHeaderTop />
+  <AppHeaderDown />
 
 </header>
 <!-- End header -->
@@ -50,19 +57,23 @@ export default {
 <!-- Start main  -->
 <main>
 
-<AppJumbo />
-<AppContactBanner />
-<AppSectionCourses />
-<AppCentralBanner />
-<AppTestimonials />
-<AppLatestNews />
-<AppNwesLetter />
+  <AppJumbo />
+  <AppContactBanner />
+  <AppSectionCourses />
+  <AppCentralBanner />
+  <AppTestimonials />
+  <AppLatestNews />
+  <AppNwesLetter />
 
 </main>
 <!-- End Main  -->
 
 <!-- Start Footer  -->
 <footer>
+ 
+   <AppFooterTop />
+   <AppFooterDown />
+
 </footer>
 <!-- End Footer -->
 
@@ -84,7 +95,6 @@ header{
 
 
 main{
-  position: absolute;
     top : 10vh;
     z-index: -1; 
     width: 100%;
