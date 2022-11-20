@@ -16,6 +16,17 @@ export default{
 <template>
 
 <section >
+
+    <a href="" class="white_square d_flex flex_wrap justify_center">
+      <i class="fa-solid fa-square-caret-up"></i>
+      <p class="f_small">Demos</p>
+    </a>
+
+    <a href="" class="white_square d_flex flex_wrap justify_center">
+        <div><span class="f_small">$</span> <span class="vertical_al_sub">39</span></div> 
+        <p class="f_small">On Sale</p>
+    </a>
+
     <div class="container justify_space_btw alignIt_center">
         <div>
            <img src="../assets/images/avada-drivers-logo-1x.png" alt="">
@@ -46,6 +57,26 @@ section{
     font-weight: 900;
     padding: 2rem;
     height: 18vh;
+    position: relative;
+
+.white_square{
+    position: absolute;
+    right: 5px;
+    bottom: -15px;
+    text-decoration: none;
+    color: $color-tundora;
+    padding-top: 5px;
+}
+
+.white_square:nth-child(2){
+    position: absolute;
+    right: 5px;
+    bottom: -70px;
+    span{
+        color : $color-bay-leaf; 
+    }
+}
+
 
 ul{
     list-style: none;

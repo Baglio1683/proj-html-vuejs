@@ -33,7 +33,6 @@ export default{
     width: 100%;
     color: white;
     font-size: xx-large;
-  
    }
 
 </style>

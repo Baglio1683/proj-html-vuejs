@@ -53,6 +53,15 @@ img{
     font-size: 8px;
 }
 
+.white_square{
+    height: 50px;
+    width: 50px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+
+
 .d_flex{
     display: flex;
 }
@@ -65,12 +74,32 @@ img{
     justify-content: space-between;
 }
 
+.justify_center{
+    justify-content: center;
+}
+
 .flex_wrap{
     flex-wrap: wrap;
 }
 
 .f_small{
     font-size: small;
+}
+
+.f_xx_large{
+    font-size: xx-large;
+}
+
+.vertical_al_sub{
+    vertical-align: sub;
+}
+
+.line_height_30{
+    line-height: 30px;
+}
+
+.line_height_25{
+    line-height: 25px;
 }
 
 .gap_2{

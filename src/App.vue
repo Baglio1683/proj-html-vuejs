@@ -12,6 +12,7 @@ import AppLatestNews from "./components/AppLatestNews.vue";
 import AppNwesLetter from './components/AppNewsLetter.vue'; 
 import AppFooterTop from "./components/AppFooterTop.vue";
 import AppFooterDown from "./components/AppFooterDown.vue";
+import AppRequestInfo from "./components/AppRequestInfo.vue" 
 
 export default {
 
@@ -28,7 +29,8 @@ export default {
     AppNwesLetter,
     AppFooterTop, 
     AppFooterDown, 
-    
+    AppRequestInfo
+
   }, 
 
   data(){
@@ -58,6 +60,7 @@ export default {
 <main>
 
   <AppJumbo />
+  <AppRequestInfo />
   <AppContactBanner />
   <AppSectionCourses />
   <AppCentralBanner />
