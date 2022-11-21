@@ -94,6 +94,7 @@ header{
   height: 28vh;
   position: fixed;
   width: 100%;
+  z-index: 99;
 }
 
 
