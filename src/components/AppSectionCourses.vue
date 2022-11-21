@@ -20,6 +20,7 @@ export default{
   <div class="container">
 
      <div class="col_6 d_flex justify_center flex_wrap">
+        <img src="../assets/images/new-corner.jpg" alt="">
         <h2>Courses</h2>
         <p class="textalign_center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam illo placeat magnam magni totam veniam tempore delectus, molestias quam aperiam iusto, fugit ipsum atque qui quisquam cupiditate? Tenetur, unde accusamus.</p>
         <a href="" class="btn_green">COURSE INFORMATION</a>
@@ -76,7 +77,13 @@ section{
          padding-top: 50px;
          position: relative;
          top: -30px;
-         left: 0;
+         left: 0; 
+         img{
+            position: absolute;
+            left: 0;
+            top: 0;
+            border-top-left-radius: 5px;
+         }
 
          p{
          color: $color-grayfoot;
