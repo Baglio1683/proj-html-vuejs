@@ -40,7 +40,7 @@ export default{
     </div>
 
     <div class='col_12'>
-        <a href="">dot dot dot </a>
+        <a href=""><i class="fa-solid fa-circle"></i></a> <a href=""><i class="fa-regular fa-circle"></i></a> <a href=""><i class="fa-regular fa-circle"></i></a> <a href=""><i class="fa-regular fa-circle"></i></a> <a href=""><i class="fa-regular fa-circle"></i></a>
     </div>
 
 </div>
@@ -61,6 +61,10 @@ padding-bottom: 8rem;
 .container_50{
     padding-top: 2rem;
     text-align: center;
+}
+
+a{
+    color: $color-grayfoot;
 }
 
 }

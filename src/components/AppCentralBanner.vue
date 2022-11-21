@@ -42,24 +42,24 @@ export default{
         <a href="" class="btn_green w_100">More about us</a>
     </div>
 
-    <div class="col_4 textalign_center card">
+    <div class="col_4 textalign_center card border_green">
         <img src="../assets/images/instructor-mikehart-200x127.jpg" alt="">
         <h4>Mike Hart</h4>
-        <a href="">links</a>
+        <a href=""><i class="fa-brands fa-facebook-f"></i></a> <a href=""><i class="fa-brands fa-twitter"></i></a><a href=""><i class="fa-brands fa-instagram"></i></a>
         <p>Lorem, ipsum dolor sit amet consectetur adipisicing </p>
     </div>
 
-    <div class="col_4 textalign_center card">
+    <div class="col_4 textalign_center card border_green">
         <img src="../assets/images/instructor-johnsmith-200x127.jpg" alt="">
         <h4>John Smith</h4>
-        <a href="">links</a>
+        <a href=""><i class="fa-brands fa-facebook-f"></i></a> <a href=""><i class="fa-brands fa-twitter"></i></a><a href=""><i class="fa-brands fa-instagram"></i></a>
         <p>Lorem, ipsum dolor sit amet consectetur adipisicing </p>
     </div>
 
-    <div class="col_4 textalign_center card">
+    <div class="col_4 textalign_center card border_green">
         <img src="../assets/images/instructor-angelahart-200x127.jpg" alt="">
         <h4>Angela Hart</h4>
-        <a href="">links</a>
+        <a href=""><i class="fa-brands fa-facebook-f"></i></a> <a href=""><i class="fa-brands fa-twitter"></i></a><a href=""><i class="fa-brands fa-instagram"></i></a>
         <p>Lorem, ipsum dolor sit amet consectetur adipisicing </p>
     </div>
 
@@ -81,7 +81,19 @@ export default{
         padding-top: 50px;
         padding-bottom: 50px;
         margin-bottom: 30px;
+        a{
+            color: $color-gumbo;
+            margin-right: 5px;
+        }
     }
+
+    .border_green{
+        border-top: 8px solid $color-bay-leaf;
+    }
+
+
+
+
     .circle{
         position: relative;
         height: 150px;
