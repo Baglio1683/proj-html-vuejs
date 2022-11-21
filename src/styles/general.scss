@@ -44,6 +44,21 @@ img{
 
 }
 
+.btn_gumbo{
+    border: 3px solid $color-gumbo;
+    display: inline-block;
+    line-height: 30px;
+    height: 33px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 20px;
+    text-align: center;
+    color: $color-gumbo; 
+    text-decoration: none;
+}
+
+
+
 .btn_green_square{
     background-color: #7ABC64;
     display: flex; 

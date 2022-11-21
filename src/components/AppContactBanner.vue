@@ -19,11 +19,12 @@ export default{
 
     <div class="col_8">
         <h2>Start to Learning Drive Today</h2>
+        <p>Give us a call to schedule your first driving lesson</p>
 
     </div>
 
     <div class="col_4">
-       <i class="fa-solid fa-phone-flip"></i> 1-800-555-555
+       <a href=""><i class="fa-solid fa-phone-flip"></i> 1-800-555-555</a>
     </div>
 
 </div>
@@ -42,6 +43,16 @@ section{
     .container{
         padding-top: 2rem;
         padding-bottom: 2rem;
+
+        a{
+            font-size: x-large;
+            color: white;
+            text-decoration: none;
+        }
+
+        h2{
+            margin-bottom: 15px;
+        }
     }
 
 }
