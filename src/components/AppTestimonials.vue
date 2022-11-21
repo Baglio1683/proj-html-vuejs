@@ -24,11 +24,11 @@ export default{
     </div>
 
     <div class='col_12'>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores totam quod doloribus, culpa corporis obcaecati fugit maxime sed. Reprehenderit velit consectetur, reiciendis aspernatur veniam dicta tempore sed doloribus architecto voluptates!</p>
+    <p>He's what our happy drivers had to say about our services: </p>
     </div>
 
     <div class='col_12'>
-    <img src="" alt="">
+    <img src="../assets/images/testimonial-sophia.png" alt="">
      </div>
 
     <div class='col_12'>
@@ -36,11 +36,11 @@ export default{
     </div>
 
     <div class='col_12'>
-          <h4>Name and surname</h4>
+          <h4>Sophia Jones</h4>
     </div>
 
     <div class='col_12'>
-        <a href="">link</a>
+        <a href="">dot dot dot </a>
     </div>
 
 </div>
@@ -56,6 +56,8 @@ section{
 
 background-image: url('../assets/images/testimonial-background.jpg');
 background-size: cover;
+padding-bottom: 8rem;
+
 .container_50{
     padding-top: 2rem;
     text-align: center;
