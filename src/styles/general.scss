@@ -1,6 +1,7 @@
 @import '../../node_modules/@fortawesome/fontawesome-free/css/all.css'; 
 @import  '../styles/partials/variables';
 
+// GENERAL 
 
 *{
     padding: 0;
@@ -29,6 +30,8 @@ a{
 img{
     max-width: 100%;
 }
+
+// BUTTONS 
 
 .btn_green{
     background-color: #7ABC64;
@@ -68,8 +71,6 @@ img{
     color: white;
 }
 
-
-
 .btn_green_square{
     background-color: #7ABC64;
     display: flex; 
@@ -87,6 +88,8 @@ img{
     background-color: white;
     border-radius: 5px;
 }
+
+// UTILITIES 
 
 .pos_relative{
     position: relative;
@@ -143,7 +146,6 @@ img{
 .gap_2{
     column-gap: 2px;
 }
-
 
 // COL SECTION 
 

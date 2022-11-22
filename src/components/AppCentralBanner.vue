@@ -146,10 +146,7 @@ export default{
         left: -4px;
         transform: rotate(-45deg);
      }
-          
-          
-            
-        
+               
     h2{
         margin-top: 20px;
         margin-bottom: 20px;

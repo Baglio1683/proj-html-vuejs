@@ -7,11 +7,14 @@ export default{
     name: 'AppHeaderTop', 
 
     data(){
+
         return{
-        }
+            messageLeft: "We have a 95% Successful Pass Rate!",
+            messageRight: "Give us a call to book your tuition ! 1-800-555-555"
+     }
+
     }
 }
-
 </script>
 
 
@@ -19,8 +22,8 @@ export default{
 
 <section class="alignIt_center d_flex" >
     <div class="container justify_space_btw">
-        <div>We have a 95% Successful Pass Rate!</div>
-        <div><a href=""><i class="fa-solid fa-phone-flip"></i>Give us a call to book your tuition ! 1-800-555-555</a></div>
+        <div>{{messageLeft}}</div>
+        <div><a href=""><i class="fa-solid fa-phone-flip"></i></a>{{messageRight}}</div>
     </div>
 </section>
 
