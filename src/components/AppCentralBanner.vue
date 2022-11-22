@@ -81,18 +81,28 @@ export default{
         padding-top: 50px;
         padding-bottom: 50px;
         margin-bottom: 30px;
+        background-color: white;
+
+        h4{
+            margin-top: 10px;
+        }
+
         a{
+            display: inline-block;
             color: $color-gumbo;
             margin-right: 5px;
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+
+        p{
+            line-height: 25px;
         }
     }
 
     .border_green{
         border-top: 8px solid $color-bay-leaf;
     }
-
-
-
 
     .circle{
         position: relative;

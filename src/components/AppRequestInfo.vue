@@ -42,11 +42,6 @@ export default{
     .container{
         position: relative;
 
-        h2{
-            color: $color-bay-leaf;
-
-        }
-
         p{
             margin-top: 15px;
             color: $color-grayfoot;
@@ -55,7 +50,11 @@ export default{
         .col_6:nth-child(1){
             padding-top: 50px;
             padding-bottom: 100px;
-     }
+
+            h2{
+              color: $color-tundora;
+            }
+         }
 
      .col_6:nth-child(2){
             border-radius: 5px;
@@ -64,12 +63,25 @@ export default{
             right: 0;
             background-color: white;
             box-shadow: 5px 10px 18px $color-grayfoot;
+            
+            h2{
+                color: $color-bay-leaf;
+                padding: 10px;
+                }
+
+            p{
+                padding: 10px;
+                margin: 0;
+            }
+        
+        
 
             input{
                 margin-bottom: 15px;
                 height: 15px;
                 border: 1px solid rgb(200, 197, 197);
                 border-radius: 5px;
+                background-color: #F7F7F7;
                
             }
 

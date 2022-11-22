@@ -32,13 +32,14 @@ export default{
 section{
     color: $color-grayfoot; 
     background-color: $color-tundora;
-    padding: 1rem;  
+    padding-top: 1rem;
+    padding-bottom: 1rem;  
     height: 10vh;
     a{
         color: $color-grayfoot;
         text-decoration: none;
         i{
-            margin-right: 5px;
+            margin-right: 15px;
         }
     }
 }

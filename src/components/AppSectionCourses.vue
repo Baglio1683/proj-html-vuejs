@@ -48,6 +48,8 @@ export default{
 
   </div>
 
+  <img src="../assets/images/bitmap.png" alt="" class="arrow_image">
+
 </section>
 
 </template>
@@ -61,6 +63,17 @@ section{
    background-repeat: no-repeat;
    background-color: $color-athens-gray;
    padding-bottom: 4rem;
+   position: relative;
+
+
+   .arrow_image{
+      position: absolute;
+      bottom: -290px;
+      left: -4px;
+      width: 115%;
+      height: 300px;
+      z-index: -2;
+   }
    .container{
 
        img{
@@ -78,6 +91,7 @@ section{
          position: relative;
          top: -30px;
          left: 0; 
+         
          img{
             position: absolute;
             left: 0;

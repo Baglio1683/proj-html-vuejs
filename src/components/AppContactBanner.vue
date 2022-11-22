@@ -51,7 +51,7 @@ section{
         }
 
         h2{
-            margin-bottom: 15px;
+            margin-bottom: 12px;
         }
     }
 

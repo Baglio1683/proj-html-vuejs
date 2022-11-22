@@ -27,14 +27,14 @@ export default{
                 <img src="../assets/images/blog-choosecar-320x202.jpg" alt="">
                 <h3>What Car to Start With</h3>
                 <p class="f_small">February 7th, 2019 | 0 Comments</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <p class="descr_card">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
             </div>
 
             <div class="col_6">
                 <img src="../assets/images/blogpost-10and2-320x202.jpg" alt="">
                 <h3>Avada Driving School Expanding</h3>
                 <p class="f_small">February 7th, 2019 | 0 Comments</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <p class="descr_card">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
             </div>
 
             <div class="col_12">
@@ -65,27 +65,34 @@ section{
         border-top-right-radius: 5px;
         position: relative;
         top: -60px;
+        background-color: $color-white; 
+        text-align: center;
         .arrow_down{
             position: absolute;
             bottom: -82px;
         }
-    }
 
-    h2{
+        h2{
         color: $color-cape-cod;
-    }
+        font-size: xx-large;
+       }
 
+     .descr_card{
+        margin-top: 10px;
+     }
     .col_6{
         h3{
             color: $color-bay-leaf;
+            margin-top: 10px;
         }
         p{
-            color: $color-cape-cod;     
+            color: $color-cape-cod; 
         }
-    }
-    .container{
-        background-color: $color-white; 
-        text-align: center;
+     }
+
+
     }
 }
+
+
 </style>

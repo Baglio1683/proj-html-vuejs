@@ -42,8 +42,9 @@ export default{
                     <li><a href=""><i class="fa-regular fa-circle-right"></i> Instructor Training</a></li>
                 </ul>
             </div>
-            <div class="col_3">
+            <div class="col_3 d_flex flex_wrap justify_center">
                <img src="../assets/images/footer-ad-grid.png" alt="">
+               <a href="" class="btn_green">BOOK NOW</a>
             </div>
 
       </div>
@@ -61,12 +62,27 @@ section{
     padding-top: 4rem;
     padding-bottom: 4rem;
 
+    .container{
+     
+    justify-content: flex-start;
+    align-items: flex-start;    
+
     ul{
         list-style: none;
         li{
-            margin-bottom: 10px;
+            margin-bottom: 15px;
+
             a{
                 text-decoration: none;
+                line-height: 25px;
+                
+                span{
+                    text-align: left;
+                }
+
+                i{
+                    margin-right: 5px;
+                }
             }
         }
     }
@@ -78,7 +94,7 @@ section{
         }
         h3{
             color: white;
-            margin-bottom: 10px;
+            margin-bottom: 20px;
         }
      }
 
@@ -88,9 +104,14 @@ section{
      .col_3:nth-child(3) li a{
         color: $color-bay-leaf ;
      }
+
+
+     .btn_green{
+        margin-top: 25px;
+     }
     
-
-
     }
+
+  }
 
 </style>

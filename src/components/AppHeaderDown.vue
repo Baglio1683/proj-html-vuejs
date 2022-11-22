@@ -55,7 +55,8 @@ section{
     opacity: 0.5;
     font-size: medium;
     font-weight: 900;
-    padding: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
     height: 18vh;
     position: relative;
 
@@ -81,7 +82,7 @@ section{
 ul{
     list-style: none;
     li{
-        margin-right: 15px; 
+        margin-left: 15px; 
         font-size: small;
         a{
             text-decoration: none;

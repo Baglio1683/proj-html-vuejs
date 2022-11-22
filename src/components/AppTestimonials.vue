@@ -57,14 +57,32 @@ section{
 background-image: url('../assets/images/testimonial-background.jpg');
 background-size: cover;
 padding-bottom: 8rem;
+color: $color-gumbo;
 
+h2{
+    color: $color-tundora;
+    font-size: xx-large;
+}
 .container_50{
     padding-top: 2rem;
     text-align: center;
+    img{
+        width: 30%;
+    }
+}
+
+h4{
+    font-size: x-large;
 }
 
 a{
     color: $color-grayfoot;
+    i{
+        font-size: small;
+    }
+}
+p{
+    line-height: 30px;
 }
 
 }
