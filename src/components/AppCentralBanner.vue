@@ -16,17 +16,17 @@ export default{
 <div class="container flex_wrap">
 
     <div class="d_flex justify_center flex_wrap card">
-        <p class="circle f_xx_large">95%</p>
+        <div class="circle f_xx_large pos_relative">95%<div class="bar_95"></div></div>
         <h2>Pass Rate</h2>
     </div>
 
     <div class="d_flex justify_center flex_wrap card">
-       <p class="circle f_xx_large">100%</p>
+       <p class="circle f_xx_large pos_relative">100% <div class="bar_100"></div></p>
        <h2>Pass Rate</h2>
     </div>
 
     <div class="d_flex justify_center flex_wrap card">
-        <p class="circle f_xx_large">5%</p>
+        <p class="circle f_xx_large pos_relative">0%<div class="bar_5"></div></p>
         <h2>Pass Rate</h2>
     </div>
 
@@ -109,15 +109,47 @@ export default{
     }
 
     .circle{
-        position: relative;
         height: 150px;
         width: 150px;
         line-height: 142px !important;
         text-align: center;
         border-radius: 50%;
-        border: 8px solid $color-bay-leaf; 
-    }
+        border: 8px solid #F6F6F6;  
+    
+     }
 
+     .bar_5{
+        position: absolute;
+        height: 8px;
+        width: 5px;
+       background-color: $color-bay-leaf ;
+       clip-path: circle();
+     }
+     
+     .bar_100{
+        position: absolute;
+        height: 150px;
+        width: 143px;
+        border-radius: 50%;
+        border: 8px solid $color-bay-leaf ;
+     }
+
+     .bar_95{
+        position: absolute;
+        height: 150px;
+        width: 143px;
+        border-radius: 50%;
+        border: 8px solid $color-bay-leaf ;
+        border-top-style: solid;
+        border-top-color:  #F6F6F6; 
+        top: -4px;
+        left: -4px;
+        transform: rotate(-45deg);
+     }
+          
+          
+            
+        
     h2{
         margin-top: 20px;
         margin-bottom: 20px;
