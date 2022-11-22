@@ -42,13 +42,22 @@ section{
         a{
          color: $color-bay-leaf ;
          text-decoration: none; 
+
+         &:hover{
+            color: rgb(169, 227, 169)
         }
+       }
       }
+
       .right{
         a{
             color: white;
             text-decoration: none;
             margin-right: 15px;
+
+            &:hover{
+                color: $color-seagull;
+            }
         }
       }  
     }

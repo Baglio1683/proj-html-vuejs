@@ -41,6 +41,9 @@ section{
         i{
             margin-right: 15px;
         }
+     &:hover{
+        color: lightgray;
+     }
     }
 }
 

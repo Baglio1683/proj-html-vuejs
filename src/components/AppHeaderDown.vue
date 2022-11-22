@@ -67,6 +67,10 @@ section{
     text-decoration: none;
     color: $color-tundora;
     padding-top: 5px;
+
+    &:hover{
+        background-color: lightblue;
+    }
 }
 
 .white_square:nth-child(2){
@@ -87,6 +91,10 @@ ul{
         a{
             text-decoration: none;
             color: white;
+
+            &:hover{
+                color: green;
+            }
         }
     }
 }

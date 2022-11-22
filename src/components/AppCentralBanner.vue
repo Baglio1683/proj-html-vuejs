@@ -83,6 +83,10 @@ export default{
         margin-bottom: 30px;
         background-color: white;
 
+        &:hover{
+            transform: scale(1.2);
+        }
+
         h4{
             margin-top: 10px;
         }
@@ -108,7 +112,7 @@ export default{
         position: relative;
         height: 150px;
         width: 150px;
-        line-height: 142px;
+        line-height: 142px !important;
         text-align: center;
         border-radius: 50%;
         border: 8px solid $color-bay-leaf; 

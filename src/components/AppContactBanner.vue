@@ -48,6 +48,10 @@ section{
             font-size: x-large;
             color: white;
             text-decoration: none;
+            
+            &:hover{
+              color: lightblue;
+            }
         }
 
         h2{

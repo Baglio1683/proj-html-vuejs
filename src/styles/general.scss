@@ -44,6 +44,12 @@ img{
 
 }
 
+.btn_green:hover{
+    background-color: white;
+    color:  #7ABC64;
+    border: 1px solid #7ABC64;
+}
+
 .btn_gumbo{
     border: 3px solid $color-gumbo;
     display: inline-block;
@@ -55,6 +61,11 @@ img{
     text-align: center;
     color: $color-gumbo; 
     text-decoration: none;
+}
+
+.btn_gumbo:hover{
+    background-color: $color-gumbo;
+    color: white;
 }
 
 

@@ -100,9 +100,16 @@ section{
 
      .col_3:nth-child(2) li a{
         color: $color-gumbo ;
+        &:hover{
+            color: white;
+        }
      }
      .col_3:nth-child(3) li a{
         color: $color-bay-leaf ;
+        
+        &:hover{
+            color: rgb(169, 227, 169)
+        }
      }
 
 
