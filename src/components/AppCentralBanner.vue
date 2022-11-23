@@ -16,17 +16,26 @@ export default{
 <div class="container flex_wrap">
 
     <div class="d_flex justify_center flex_wrap card">
-        <div class="circle f_xx_large pos_relative">95%<div class="bar_95"></div></div>
+        <div class="circle f_xx_large pos_relative">95%</div>
+        <svg height="150" width="150">
+            <circle cx="75" cy="75" r="68" stroke="#79b276" stroke-width="8px" fill="none"  stroke-dashoffset="21" />
+        </svg>
         <h2>Pass Rate</h2>
     </div>
 
     <div class="d_flex justify_center flex_wrap card">
-       <p class="circle f_xx_large pos_relative">100% <div class="bar_100"></div></p>
+       <p class="circle f_xx_large pos_relative">100%</p>
+       <svg height="150" width="150">
+            <circle cx="75" cy="75" r="68" stroke="#79b276" stroke-width="8px" fill="none"  stroke-dashoffset="0" />
+        </svg>
        <h2>Pass Rate</h2>
     </div>
 
     <div class="d_flex justify_center flex_wrap card">
-        <p class="circle f_xx_large pos_relative">0%<div class="bar_5"></div></p>
+        <p class="circle f_xx_large pos_relative">0%</p>
+        <svg height="150" width="150">
+            <circle cx="75" cy="75" r="70" stroke="#79b276" stroke-width="8px" fill="none"  stroke-dashoffset="415" />
+        </svg>
         <h2>Pass Rate</h2>
     </div>
 
@@ -82,6 +91,15 @@ export default{
         padding-bottom: 50px;
         margin-bottom: 30px;
         background-color: white;
+        position: relative;
+
+        svg{
+            position: absolute;
+            transform: rotate(-90deg);
+             circle{
+            stroke-dasharray: 427;
+        }
+        }
 
         &:hover{
             transform: scale(1.2);
@@ -117,36 +135,7 @@ export default{
         border: 8px solid #F6F6F6;  
     
      }
-
-     .bar_5{
-        position: absolute;
-        height: 8px;
-        width: 5px;
-       background-color: $color-bay-leaf ;
-       clip-path: circle();
-     }
-     
-     .bar_100{
-        position: absolute;
-        height: 150px;
-        width: 143px;
-        border-radius: 50%;
-        border: 8px solid $color-bay-leaf ;
-     }
-
-     .bar_95{
-        position: absolute;
-        height: 150px;
-        width: 143px;
-        border-radius: 50%;
-        border: 8px solid $color-bay-leaf ;
-        border-top-style: solid;
-        border-top-color:  #F6F6F6; 
-        top: -4px;
-        left: -4px;
-        transform: rotate(-45deg);
-     }
-               
+   
     h2{
         margin-top: 20px;
         margin-bottom: 20px;
